@@ -102,13 +102,12 @@ function draw_one_frame(words, vocal, drum, bass, other, counter) {
 
   for (let i = 1; i <= drumMap; i++) {
     let rectRiseOne = 600 - i * 18;
-
+    stroke(28, 31, 28);
+    strokeWeight(5);
     fill(28, 31, 28);
     rect(200, rectRiseOne, 150, drumMap);
     rect(900, rectRiseOne, 200, drumMap);
 
-    stroke(28, 31, 28);
-    strokeWeight(5);
     fill(184, 204, 53);
     rect(165, rectRiseOne, 23, drumMap);
     rect(235, rectRiseOne, 23, drumMap);
@@ -121,12 +120,12 @@ function draw_one_frame(words, vocal, drum, bass, other, counter) {
 
   for (let i = 1; i <= drumMap; i++) {
     let rectRiseTwo = 690 - i * 18;
+    stroke(28, 31, 28);
+    strokeWeight(5);
     fill(28, 31, 28);
     rect(380, rectRiseTwo, 170, drumMap);
     rect(730, rectRiseTwo, 100, drumMap);
     
-    stroke(28, 31, 28);
-    strokeWeight(5);
     fill(184, 204, 53);
     rect(340, rectRiseTwo, 23, drumMap);
     rect(420, rectRiseTwo, 23, drumMap);
@@ -138,22 +137,17 @@ function draw_one_frame(words, vocal, drum, bass, other, counter) {
 
   for (let i = 1; i <= drumMap; i++) {
     let rectRiseThree = 600 - i * 18;
+    stroke(28, 31, 28);
+    strokeWeight(5);
     fill(28, 31, 28);
     rect(1100, rectRiseThree, 100, drumMap);
 
-    stroke(28, 31, 28);
-    strokeWeight(5);
     fill(184, 204, 53);
     rect(1080, rectRiseThree, 23, drumMap);
     rect(1120, rectRiseThree, 23, drumMap);
     noStroke();
   }
 
-
-
-  // Floor
-  //fill(20);
-  //rect(0, 750, 2560, 750); // 2560x x 1260
   // Path
   fill(9, 33, 9);
   rect(0, 645, 2560, 150);
